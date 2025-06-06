@@ -7,5 +7,15 @@ Below resources will be created by script:
 
 Pre-requisites:
 1. Install AWS SDK and configue access keys.Ensure access key has permission to provision above resources.
-2. Install terraform
+2. Install terraform, git
 3. Update variable.tf file as per your environment
+
+Execution Steps:
+1. Fork this repository 
+2. clone your repository : git clone <git url>
+3. Initialize terraform: terraform init
+4. Review changes: terraform plan
+5. Apply changes: terraform apply
+
+Clean-up:
+Run: terraform destroy
